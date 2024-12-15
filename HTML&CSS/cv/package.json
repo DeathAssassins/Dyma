@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w scss:css"
+    "sass": "cross-env sass --watch scss:css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "sass": "1.83.0"
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sass": "^1.83.0"
   }
 }
